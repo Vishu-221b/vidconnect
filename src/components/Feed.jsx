@@ -15,7 +15,7 @@ const Feed = () => {
                 Copyright © 2023 vishu
             </Typography>
         </Box>
-        <Box p={2} sx={{backgroundColor:"blue", overflowY: "auto", height: "100vh", flex: 2 }}>
+        <Box p={2} sx={{backgroundColor:"#2a8cbd", overflowY: "auto", height: "100vh", flex: 2 }}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
         {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
         </Typography>

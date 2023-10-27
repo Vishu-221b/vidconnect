@@ -1,6 +1,12 @@
+import Loader from "./Loader";
+
 const Videos = () => {
     return (
-        <h2>Hehe Videos</h2>
+        <div>
+            <h2>Hehe Videos</h2>
+            <Loader />
+        </div>
+        
     )
 }
 
