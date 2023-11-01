@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Feed from "./components/Feed";
 import SearchFeed from "./components/SearchFeed";
 import VideoDetail from "./components/VideoDetail";
-import ChannelDetail from "./components/channelDetail";
+import ChannelDetail from "./components/ChannelDetail";
 
 const App = () => {
   return (
