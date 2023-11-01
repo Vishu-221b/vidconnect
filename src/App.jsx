@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Feed from "./components/Feed";
 import SearchFeed from "./components/SearchFeed";
 import VideoDetail from "./components/VideoDetail";
+import ChannelDetail from "./components/channelDetail";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path = "/" element = {<Feed />} />
         <Route path ="/search/:searchTerm" element = {<SearchFeed />} />
         <Route path='/video/:id' element={<VideoDetail />} />
+        <Route path='/channel/:id' element={<ChannelDetail />} />
       </Routes>
       </Box>
       </BrowserRouter>
