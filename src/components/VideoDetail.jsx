@@ -26,6 +26,8 @@ const VideoDetail = () => {
     if(!videoDetail?.snippet) return <Loader />; 
     const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail;
 
+    
+
     return (
         <Box>
             <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} className="react-player" controls />
