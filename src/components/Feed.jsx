@@ -23,7 +23,7 @@ const Feed = () => {
             selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}
             /> 
             <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: "#fff", }}>
-                Copyright © 2023 vishu
+                Copyright © 2023 vishu.hehe
             </Typography>
         </Box>
         <Box p={2} sx={{backgroundColor:"black", overflowY: "auto", height: "100vh", flex: 2 }}>
